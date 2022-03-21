@@ -332,3 +332,18 @@ DESCRIPTION
   Update installed plugins.
 ```
 <!-- commandsstop -->
+
+
+# References
+
+https://blog.solunita.net/posts/start-to-develop-cli-by-oclif-is-surprisedly-fast/
+
+## Usage
+
+```
+$ ./bin/run hello world
+hello world! (./src/commands/hello/world.ts)
+
+$ ./bin/run hello friend --from=oclif
+hello friend from oclif! (./src/commands/hello/index.ts)
+```
